@@ -21,6 +21,6 @@ public class Rechteck {
 		graphics.drawLine(xKoordinate, yKoordinate, xKoordinate, yKoordinate + 100);
 		graphics.drawLine(xKoordinate, yKoordinate, xKoordinate + 100, yKoordinate);
 		graphics.drawLine(xKoordinate + 100, yKoordinate, xKoordinate + 100, yKoordinate + 100);
-		graphics.drawLine(xKoordinate, yKoordinate + 100, yKoordinate + 100, yKoordinate + 100);
+		graphics.drawLine(xKoordinate, yKoordinate + 100, xKoordinate + 100, yKoordinate + 100);
 	}
 }

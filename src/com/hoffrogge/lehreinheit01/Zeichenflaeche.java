@@ -35,17 +35,13 @@ public class Zeichenflaeche extends Quadrat {
 	@Override
 	public void zeichnen(Graphics graphics) {
 		super.zeichnen(graphics);
-		Rechteck erstesrechteck = new Rechteck(200, 200);
-		erstesrechteck.zeichnen(graphics);
-
-		Rechteck zweitesrechteck = new Rechteck(200, 300);
-		zweitesrechteck.zeichnen(graphics);
-
-		Rechteck drittesrechteck = new Rechteck(300, 300);
-		drittesrechteck.zeichnen(graphics);
-
-		Rechteck viertesrechteck = new Rechteck(300, 400);
-		viertesrechteck.zeichnen(graphics);
+		new Blitz().zeichnen(graphics);
+		new Quadrat1().zeichnen(graphics);
+		new LBlock().zeichnen(graphics);
+		new LBlock2().zeichnen(graphics);
+		new Blitz2().zeichnen(graphics);
+		new Linie().zeichnen(graphics);
+		new TBlock().zeichnen(graphics);
 
 	}
 }
