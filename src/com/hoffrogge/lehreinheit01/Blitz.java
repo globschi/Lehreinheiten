@@ -4,6 +4,7 @@ import java.awt.Graphics;
 
 public class Blitz {
 
+	/**/
 	public void zeichnen(Graphics graphics) {
 		Rechteck erstesrechteck = new Rechteck(400, 400);
 		erstesrechteck.zeichnen(graphics);
