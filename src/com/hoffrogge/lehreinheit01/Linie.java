@@ -16,5 +16,7 @@ public class Linie {
 		Rechteck viertesrechteck = new Rechteck(650, 350);
 		viertesrechteck.zeichnen(graphics);
 
+		/* Kommentar */
+
 	}
 }
