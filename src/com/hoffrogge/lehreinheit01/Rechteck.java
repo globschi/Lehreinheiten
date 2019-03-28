@@ -10,17 +10,16 @@ public class Rechteck {
 
 	private int xKoordinate;
 	private int yKoordinate;
+	private int kantenlaenge = 100;
 
-	public Rechteck(int xKoordinate, int yKoordinate) {
+	public Rechteck(int xKoordinate, int yKoordinate, int kantenLaenge) {
 		this.xKoordinate = xKoordinate;
 		this.yKoordinate = yKoordinate;
+		this.kantenlaenge = kantenLaenge;
+
 	}
 
 	public void zeichnen(Graphics graphics) {
-
-		graphics.drawLine(xKoordinate, yKoordinate, xKoordinate, yKoordinate + 100);
-		graphics.drawLine(xKoordinate, yKoordinate, xKoordinate + 100, yKoordinate);
-		graphics.drawLine(xKoordinate + 100, yKoordinate, xKoordinate + 100, yKoordinate + 100);
-		graphics.drawLine(xKoordinate, yKoordinate + 100, xKoordinate + 100, yKoordinate + 100);
+		graphics.fillRect(xKoordinate, yKoordinate, kantenlaenge, kantenlaenge);
 	}
 }

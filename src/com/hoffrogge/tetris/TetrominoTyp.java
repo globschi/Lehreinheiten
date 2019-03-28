@@ -6,11 +6,5 @@ package com.hoffrogge.tetris;
  */
 public enum TetrominoTyp {
 
-    BLOCK,
-    LANGER,
-    L,
-    UMGEDREHTES_L,
-    T,
-    Z,
-    UMGEDREHTES_Z
+	Blitz, Blitz2, LBlock, LBlock2, TBlock, Quadrat, Linie
 }

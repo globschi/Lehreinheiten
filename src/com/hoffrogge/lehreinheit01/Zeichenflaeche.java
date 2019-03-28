@@ -3,6 +3,13 @@ package com.hoffrogge.lehreinheit01;
 import java.awt.Graphics;
 
 import com.hoffrogge.lehreinheit04.Quadrat;
+import com.hoffrogge.tetris.Blitz;
+import com.hoffrogge.tetris.Blitz2;
+import com.hoffrogge.tetris.LBlock;
+import com.hoffrogge.tetris.LBlock2;
+import com.hoffrogge.tetris.Linie;
+import com.hoffrogge.tetris.Quadrat1;
+import com.hoffrogge.tetris.TBlock;
 
 /*
  * Zeichenfläche mit einer Größe von 800 x 800 Pixeln
