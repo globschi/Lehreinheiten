@@ -24,6 +24,7 @@ public class Blitz extends AllgemeinerTetromino {
 
 	@Override
 	public void setMittelpunkt(Punkt mittelpunkt) {
+		new Punkt(xBlitz, yBlitz);
 		this.mittelpunkt = mittelpunkt;
 
 	}

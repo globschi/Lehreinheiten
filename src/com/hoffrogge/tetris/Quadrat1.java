@@ -11,7 +11,7 @@ public class Quadrat1 extends AllgemeinerTetromino {
 	int xQuadrat = 50;
 	int yQuadrat = 50;
 
-	private Farbe fuellFarbe = new Farbe(50, 50, 50);
+	private Farbe fuellFarbe = new Farbe(10, 10, 150);
 
 	public void zeichnen(Graphics graphics) {
 		super.zeichneRechteck(graphics, xQuadrat, yQuadrat, fuellFarbe);
@@ -23,6 +23,7 @@ public class Quadrat1 extends AllgemeinerTetromino {
 
 	@Override
 	public void setMittelpunkt(Punkt mittelpunkt) {
+		new Punkt(xQuadrat, yQuadrat)
 		this.mittelpunkt = mittelpunkt;
 
 	}
